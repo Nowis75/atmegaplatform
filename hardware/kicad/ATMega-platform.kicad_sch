@@ -3857,7 +3857,7 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "D11"
 		(shape input)
 		(at 50.8 125.73 0)
 		(fields_autoplaced yes)
@@ -3869,7 +3869,7 @@
 		)
 		(uuid "2be69556-a65e-420b-b09f-864d9775b189")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.6557 125.73 0)
+			(at 57.4742 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,7 +4033,7 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "D10"
 		(shape input)
 		(at 50.8 148.59 0)
 		(fields_autoplaced yes)
@@ -4045,7 +4045,7 @@
 		)
 		(uuid "395521d4-aaed-4bcc-9e8c-43d501d7637a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.6557 148.59 0)
+			(at 57.4742 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4121,7 +4121,7 @@
 			)
 		)
 	)
-	(global_label "D10"
+	(global_label "GND"
 		(shape input)
 		(at 30.48 148.59 180)
 		(fields_autoplaced yes)
@@ -4133,7 +4133,7 @@
 		)
 		(uuid "443e2766-c6d3-4359-b747-fef3f888bd44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.8058 148.59 0)
+			(at 23.6243 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4451,7 +4451,7 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "D9"
 		(shape input)
 		(at 50.8 171.45 0)
 		(fields_autoplaced yes)
@@ -4463,7 +4463,7 @@
 		)
 		(uuid "8e312c57-cde2-48d3-8479-56f39e25e818")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.6557 171.45 0)
+			(at 56.2647 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4671,7 +4671,7 @@
 			)
 		)
 	)
-	(global_label "D11"
+	(global_label "GND"
 		(shape input)
 		(at 30.48 125.73 180)
 		(fields_autoplaced yes)
@@ -4683,7 +4683,7 @@
 		)
 		(uuid "c08c3a0f-491d-4090-a1c3-eaee572027b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.8058 125.73 0)
+			(at 23.6243 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,7 +4913,7 @@
 			)
 		)
 	)
-	(global_label "D9"
+	(global_label "GN"
 		(shape input)
 		(at 30.48 171.45 180)
 		(fields_autoplaced yes)
@@ -4925,7 +4925,7 @@
 		)
 		(uuid "d9cc6b18-1099-4249-8734-d00bfebc82b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.0153 171.45 0)
+			(at 24.8943 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5825,21 +5825,19 @@
 		(fields_autoplaced yes)
 		(uuid "43fea3a5-210d-4cd0-9dc0-0fc3931e414d")
 		(property "Reference" "R5"
-			(at 44.4499 123.19 0)
+			(at 45.72 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "220"
-			(at 46.9899 123.19 0)
+			(at 45.72 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -6909,21 +6907,19 @@
 		(fields_autoplaced yes)
 		(uuid "d6bc4fb3-638d-4b65-9565-c70aa8feb33d")
 		(property "Reference" "R4"
-			(at 44.4499 146.05 0)
+			(at 45.72 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "220"
-			(at 46.9899 146.05 0)
+			(at 45.72 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -6979,21 +6975,19 @@
 		(fields_autoplaced yes)
 		(uuid "de8c172e-2518-49cd-88ba-a2e3810e5780")
 		(property "Reference" "R3"
-			(at 44.4499 168.91 0)
+			(at 45.72 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "220"
-			(at 46.9899 168.91 0)
+			(at 45.72 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
