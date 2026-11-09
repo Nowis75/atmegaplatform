@@ -2331,295 +2331,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push_Dual"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_Push_Dual"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, symbol, four pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_Dual_0_1"
-				(circle
-					(center -2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 0 5.588)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.048) (xy 0 3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.016) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.508) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 0 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 3.81) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_Push_Dual_1_1"
-				(rectangle
-					(start -3.175 5.715)
-					(end 3.175 -4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -3096,12 +2807,6 @@
 		(uuid "02400002-e02e-47ed-82f8-c3d6992ce294")
 	)
 	(junction
-		(at 77.47 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "119a8b78-ef0d-4a4f-aa67-8c1fa86670db")
-	)
-	(junction
 		(at 246.38 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3124,18 +2829,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7eff817c-457c-4f1d-8b9a-61e054bb95d3")
-	)
-	(junction
-		(at 77.47 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8424b127-930a-4616-9af1-5bb0df0483f4")
-	)
-	(junction
-		(at 77.47 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab8b8784-c038-49a2-8709-3111875d8ef6")
 	)
 	(wire
 		(pts
@@ -3369,16 +3062,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 147.32) (xy 77.47 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae59ea1c-ef0d-4d95-acb7-ed37deaa5fbe")
-	)
-	(wire
-		(pts
 			(xy 30.48 148.59) (xy 33.02 148.59)
 		)
 		(stroke
@@ -3436,26 +3119,6 @@
 			(type default)
 		)
 		(uuid "d3b9ed43-9248-4155-82c6-aaa564a48ff6")
-	)
-	(wire
-		(pts
-			(xy 77.47 124.46) (xy 77.47 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d60616bf-1700-45db-a10e-d3ef38a621fa")
-	)
-	(wire
-		(pts
-			(xy 77.47 170.18) (xy 77.47 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc5b6008-dc3d-4e16-9acc-2b62f91a6371")
 	)
 	(wire
 		(pts
@@ -3699,28 +3362,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 87.63 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1979337f-978b-499d-ac57-c0d87678efc7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.2438 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4156,28 +3797,6 @@
 		(uuid "451db50b-20b6-4001-b531-2a01672d8976")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 272.1042 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 87.63 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "45a3dae2-0036-4a40-8a56-89a2b328fe7c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.2438 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,7 +4532,7 @@
 			)
 		)
 	)
-	(global_label "GN"
+	(global_label "GND"
 		(shape input)
 		(at 30.48 171.45 180)
 		(fields_autoplaced yes)
@@ -4925,34 +4544,12 @@
 		)
 		(uuid "d9cc6b18-1099-4249-8734-d00bfebc82b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.8943 171.45 0)
+			(at 23.6243 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 87.63 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dbabafca-f50c-497e-811b-419c9c759903")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.2438 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5090,29 +4687,29 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Dual")
-		(at 82.55 127 0)
+		(lib_id "Switch:SW_Push")
+		(at 82.55 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "06b2417a-58ab-4a3f-9fa0-106231611489")
 		(property "Reference" "SW4"
-			(at 82.55 116.84 0)
+			(at 82.55 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x02"
+		(property "Value" "Push 6x6"
 			(at 82.55 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
@@ -5125,7 +4722,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 127 0)
+			(at 82.55 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5133,8 +4730,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, symbol, four pins"
-			(at 82.55 127 0)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 82.55 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5147,12 +4744,6 @@
 		)
 		(pin "2"
 			(uuid "c187f791-977b-4a43-a821-20c5a4722512")
-		)
-		(pin "3"
-			(uuid "5ced5fe8-0d3d-4afe-9ac1-b6669e6f7940")
-		)
-		(pin "4"
-			(uuid "a87b0e01-e391-49af-9a6f-8ce089a9b41e")
 		)
 		(instances
 			(project "ATMega-platform"
@@ -5511,6 +5102,74 @@
 			(project ""
 				(path "/e5c753cc-e623-4ef9-a174-d3a3f19eee06"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 82.55 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23924414-5d37-49fe-b9ec-3845b66e82c2")
+		(property "Reference" "SW3"
+			(at 82.55 143.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Push 6x6"
+			(at 82.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 82.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 82.55 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fc4f8e4-6a9d-4b1c-9675-f6d642f7ae3b")
+		)
+		(pin "2"
+			(uuid "29434337-59c5-49ea-841b-1d42f3990a62")
+		)
+		(instances
+			(project "ATMega-platform"
+				(path "/e5c753cc-e623-4ef9-a174-d3a3f19eee06"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -6331,33 +5990,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Dual")
-		(at 82.55 149.86 0)
+		(lib_id "Switch:SW_Push")
+		(at 82.55 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7aaa14f8-8c3b-4855-b66e-18ae976bb462")
-		(property "Reference" "SW3"
-			(at 82.55 139.7 0)
+		(uuid "717a7cfa-0bc6-4461-9bf8-03d27f9b2f1e")
+		(property "Reference" "SW2"
+			(at 82.55 165.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x02"
-			(at 82.55 142.24 0)
+		(property "Value" "Push 6x6"
+			(at 82.55 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 82.55 142.24 0)
+			(at 82.55 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6366,7 +6025,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 149.86 0)
+			(at 82.55 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6374,8 +6033,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, symbol, four pins"
-			(at 82.55 149.86 0)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 82.55 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6384,21 +6043,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1480780a-6380-476f-b085-ba820788536f")
+			(uuid "08025295-7a56-4d96-a55e-86cdf6746a85")
 		)
 		(pin "2"
-			(uuid "684ddbee-2f18-4389-82ae-806c906bf7f1")
-		)
-		(pin "3"
-			(uuid "d8efc2ba-2a76-406e-90b0-35da8c59bf07")
-		)
-		(pin "4"
-			(uuid "cf7e404e-745f-46b0-bcd6-07279e38d86a")
+			(uuid "f5189703-e409-4a3f-a287-5de4b2937670")
 		)
 		(instances
 			(project "ATMega-platform"
 				(path "/e5c753cc-e623-4ef9-a174-d3a3f19eee06"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -6539,80 +6192,6 @@
 			(project ""
 				(path "/e5c753cc-e623-4ef9-a174-d3a3f19eee06"
 					(reference "TH1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_Dual")
-		(at 82.55 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9da8b125-9104-4812-86ec-d0aa39214bef")
-		(property "Reference" "SW2"
-			(at 82.55 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DIP_x02"
-			(at 82.55 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 82.55 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, symbol, four pins"
-			(at 82.55 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad0cc77e-6e79-4ed3-8eb9-d2a5ca40d3e8")
-		)
-		(pin "2"
-			(uuid "60997abd-74fd-4f1a-b3bb-c40eedcf4516")
-		)
-		(pin "3"
-			(uuid "4b6dbde1-c411-4bbd-8491-2ae774af6899")
-		)
-		(pin "4"
-			(uuid "131395a4-b533-49ad-88ec-1ce6a4b6e26a")
-		)
-		(instances
-			(project ""
-				(path "/e5c753cc-e623-4ef9-a174-d3a3f19eee06"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -6769,21 +6348,19 @@
 		(fields_autoplaced yes)
 		(uuid "bad063c4-6b5f-4084-923f-e63e385bfd93")
 		(property "Reference" "R2"
-			(at 259.0799 50.8 0)
+			(at 260.35 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "220"
-			(at 261.6199 50.8 0)
+			(at 260.35 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
