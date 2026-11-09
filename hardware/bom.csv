@@ -1,0 +1,17 @@
+Reference,Qty,Value,Function,Footprint
+U1,1,ATmega328P-PU,Microcontroller (in DIP-28 socket),Package_DIP:DIP-28_W7.62mm
+Y1,1,16 MHz,Crystal,Crystal:Crystal_HC52-6mm_Vertical
+C1;C2,2,22 pF,Crystal load capacitors,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm
+C3,1,1 uF,DTR-to-RESET auto-reset coupling capacitor,Capacitor_THT:CP_Radial_D8.0mm_P2.50mm
+R1,1,10 kOhm,RESET pull-up,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R2;R3;R4;R5,4,220 Ohm,LED series resistors (D13; D9; D10; D11),Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R6;R7,2,10 kOhm,Thermistor divider fixed resistors (A0; A1),Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+TH1;TH2,2,NTC 10 kOhm B=3950,Thermistors (A0; A1),OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical
+D1;D2;D3;D4,4,LED 5 mm,LEDs on D13; D9; D10; D11,LED_THT:LED_D5.0mm
+SW1,1,Push button,RESET,Button_Switch_THT:SW_PUSH_6mm
+SW2;SW3;SW4,3,Two-position switch,Digital inputs D5; D6; D7 (switch to GND),Button_Switch_THT:SW_PUSH_6mm
+J1,1,4-pin female header,I2C (VCC; GND; SCL; SDA),Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical
+UART1,1,6-pin female header,CP2102 adapter (VCC; GND; RX; TX; DTR; RTS),Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical
+-,1,DIP-28 IC socket,Socket for U1,-
+-,as needed,Female socket-header strips 2.54 mm,Sockets for all removable components,-
+-,1,CP2102 USB-to-TTL adapter (5 V),Power; programming; serial,-

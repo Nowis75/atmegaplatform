@@ -9,11 +9,12 @@ The platform is a two-layer carrier PCB for the ATmega328P (DIP-28, 16 MHz, 5 V)
 
 | Function | Pins |
 |---|---|
-| LEDs | D9, D10, D11 (100 Ω series resistors) |
-| Switches | D5, D6, D7 |
-| NTC thermistor dividers | A0, A1 (10 kΩ NTC, β = 3950, 10 kΩ fixed resistor, thermistor to GND) |
-| I²C header | VCC, GND, SDA (A4), SCL (A5) |
-| UART header | to CP2102 USB-to-TTL adapter (power, TX/RX, upload) |
+| LEDs | D9, D10, D11, D13 (220 Ω series resistors) |
+| Switches | D5, D6, D7 (switch to GND, use `INPUT_PULLUP`) |
+| NTC thermistor dividers | A0, A1 (10 kΩ NTC to GND, β = 3950; 10 kΩ to VCC) |
+| I²C header J1 | VCC, GND, SCL (A5), SDA (A4) |
+| UART header UART1 | VCC, GND, RX, TX, DTR, RTS: connect a 5 V CP2102 USB-to-TTL adapter (TX↔RX crossed) |
+| Auto-reset | DTR → 1 µF → RESET (automatic reset before upload) |
 
 ## Repository structure
 
@@ -22,7 +23,7 @@ firmware/
   arduino/      Arduino IDE sketches (open the .ino in each folder)
   platformio/   PlatformIO project, one environment per example
 docs/fritzing/  Fritzing wiring diagrams of the exercises (breadboard reference)
-hardware/       KiCad design files of the carrier PCB (to be added)
+hardware/       KiCad schematic and PCB of the carrier board, BOM
 data/           Anonymized questionnaire data (to be added)
 ```
 
@@ -57,8 +58,8 @@ pio device monitor                 # serial monitor, 9600 Bd
 Notes:
 
 - `05-b-button-interrupt` uses external interrupt INT0 on D2, which is not routed to a board switch. Connect a button to D2 or adapt the pin.
-- Some PlatformIO examples read the buttons as active-high (`INPUT`, external pull-down, breadboard wiring). The board sketches use `INPUT_PULLUP` (pressed = LOW).
+- Some PlatformIO examples (`04-*`, `05-a`) were written for breadboard wiring with active-high buttons (`INPUT`, external pull-down). On the PCB, the switches connect to GND. Change these sketches to `INPUT_PULLUP` and test for `LOW`, as the Arduino sketches `02-c-*` already do.
 
 ## License
 
-Firmware: MIT (see `LICENSE`).
+Firmware and hardware design files: MIT (see `LICENSE`).
