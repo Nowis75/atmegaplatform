@@ -1,0 +1,15 @@
+id,group,A1,A2,A3,A4,A5,B1,B2,B3,B4,B5,C1,C2,C3,C4,C5,D1,D2,D3,D4,D5,E1,E2,E3,E4,E5,F1,F2,G1,G2
+1,BB,4,5,5,5,5,5,5,2,4,5,1,2,5,5,5,5,5,4,4,5,5,5,5,5,5,4,5,Jednoduchost,Žádné
+2,PCB,5,4,4,5,4,5,5,5,5,3,5,5,5,5,5,5,4,5,5,5,5,5,4,5,5,3,4,"Jednoduchost zapojení, popisky na platformě","Špatně držící diody v zapojení a občasné problémy pri napájení z notebooku, což byl spíše můj problém."
+3,BB,5,4,4,4,4,4,3,4,4,5,5,4,5,4,4,5,4,5,5,3,5,5,4,4,5,3,4,"Vidět realné součástky, které jsme museli správně zapojit.",Kontrola správnosti zapojení součástek.
+4,BB,4,4,2,3,4,5,4,3,4,5,5,3,5,5,5,5,5,5,2,1,5,5,5,5,5,4,5,Ukázkové priklady byly názorné a pomohly mi.,"Chyba v kódu, syntaxe/logická"
+5,PCB,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,3,3,2,4,5,4,4,5,5,3,5,Praktické cvičení,Žádné
+6,PCB,5,4,4,4,3,5,4,3,4,4,3,5,5,3,5,4,3,4,3,4,5,5,4,5,5,3,5,"Bylo jasné a o dost jednodušší zjistit co kam zapojit, práce s breadboard je určitě taky přínosná, ale vzniklá ""kopice"" kabelu dost omezovala orientaci",Na breadboard určitě správnost zapojení
+7,PCB,5,4,3,4,3,3,2,3,4,4,3,5,5,3,4,5,4,5,4,4,5,5,5,4,5,4,5,Nejvíce pomohla přímá práce s hardwarem a možnost rychle vidět praktické výsledky,Časté odpojování komunikace mezi mým počítačem a hardwarem
+8,BB,4,4,4,4,4,3,4,2,2,2,4,3,2,2,3,4,4,4,2,4,4,4,3,3,4,3,4,Praktické úlohy,Velké množství vodičů
+9,BB,4,4,4,4,4,2,2,2,2,2,4,2,2,2,1,4,4,4,3,5,2,4,3,2,5,2,5,Praktické úlohy,Složitost zapojení
+10,PCB,5,5,4,5,5,5,5,5,5,5,1,5,5,5,5,5,5,5,4,5,5,5,5,5,5,5,5,Praktické řešení příkladů,Chyby v kódu
+11,PCB,5,4,4,5,3,5,5,5,5,5,5,5,5,5,4,5,5,4,3,5,4,5,4,4,5,3,5,Praktické příklady,Programový kód a jeho konstrukce
+12,BB,4,4,4,4,4,4,2,2,2,1,2,2,2,2,2,4,3,4,3,5,4,4,4,3,5,4,4,Praktické příklady,Velké množství vodičů na nepájivém poli a tím i chyb
+13,PCB,4,4,4,4,3,4,4,4,5,4,5,4,3,4,4,5,4,5,5,4,4,5,4,4,3,4,4,Názornost,Nic
+14,BB,4,4,4,5,3,3,4,4,3,4,3,3,4,3,4,4,4,4,4,3,4,4,4,3,4,3,5,Praktická zkušenost z HW,Nic
